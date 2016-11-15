@@ -9,7 +9,7 @@ public class PowerOfTwo {
         while (true) {
             int n = sc.nextInt();
             if (n == 0) break;
-            System.out.println(((n & (n - 1))));
+            System.out.println(((n & (n - 1))==0));
         }
     }
 }
